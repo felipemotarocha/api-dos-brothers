@@ -10,5 +10,9 @@
     "sourceType": "module",
     "project": "./tsconfig.json"
   },
-  "rules": {}
+  "rules": {
+    "checksConditionals": false,
+    "explicit-function-return-type": false,
+    "strict-boolean-expressions": false
+  }
 }
